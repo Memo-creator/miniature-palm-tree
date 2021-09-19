@@ -142,10 +142,13 @@ ul {
 }
 
 /* Clear floats after the columns */
-.primary-cta {
-  float: left;
-  width: 50%;
-  font-weight: bold;
+div {
+  .primary-cta {
+    float: left;
+    width: 50%;
+    font-weight: bold;
+    padding-bottom: 15em;
+  }
 }
 
 /* Clear floats after the columns */
@@ -153,6 +156,7 @@ ul {
   content: "";
   display: table;
   clear: both;
+  font-size: 10px;
 }
 
 h2 {
