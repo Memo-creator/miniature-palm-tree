@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select page</title>
+    <link rel="stylesheet" href="CSS/second.css" />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelector("select").onchange = function () {
+          document.querySelector("#hello").style.color = this.value;
+        };
+      });
+    </script>
+  </head>
+  <body style="background-color: gray">
+    <h1 id="hello">Home Edges</h1>
+    <select name="types" id="option-cta">
+      <option value="black">ALL</option>
+      <option value="Red">Velvet</option>
+      <option value="Green">Embroid</option>
+      <option value="Yellow">Embroid Velvet</option>
+      <option value="Orange">Queen size</option>
+      <option value="Blue">Full/Double size</option>
+    </select>
+  </body>
+</html>

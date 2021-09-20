@@ -145,7 +145,8 @@ ul {
 div {
   .primary-cta {
     float: left;
-    width: 50%;
+    height: 100px;
+    width: 50px;
     font-weight: bold;
     padding-bottom: 15em;
   }
@@ -232,6 +233,9 @@ nav {
   float: right;
   margin: -0.5em;
   cursor: pointer;
+}
+.social {
+  border-radius: 2em;
 }
 @media only screen and (min-width: 921px) {
   .mobile-menu,
